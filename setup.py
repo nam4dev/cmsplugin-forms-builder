@@ -24,9 +24,9 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'Django>=2.0, <2.3',
+        'Django>=3.0',
         'django-cms>=3.3.1',
-        'django-forms-builder',
+        # 'django-forms-builder',
     ],
     zip_safe=False
 )
